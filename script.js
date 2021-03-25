@@ -1,10 +1,10 @@
-let number = 17
+const number = 17
 let guess = 0
 
 document.getElementById('start').addEventListener('click', guesser)
 
 function guesser () {
-  while (guess != number) {
+  while (guess !== number) {
     guess = prompt('Guess a number between 1 and 25')
     if (guess > number) {
       alert('To Big! Try Again!')
