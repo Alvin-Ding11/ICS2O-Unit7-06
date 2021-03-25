@@ -1,0 +1,12 @@
+body {
+  background-color: burlywood;
+}
+
+.header {
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin: auto;
+}
